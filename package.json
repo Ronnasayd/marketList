@@ -1,0 +1,27 @@
+{
+  "name": "marketlist",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "expo": "~47.0.9",
+    "expo-checkbox": "~2.2.2",
+    "expo-status-bar": "~1.4.2",
+    "nativewind": "^2.0.11",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-progress": "^5.0.0",
+    "react-native-svg": "13.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "tailwindcss": "^3.2.4"
+  },
+  "private": true
+}
