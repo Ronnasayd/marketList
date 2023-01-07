@@ -5,14 +5,14 @@ import colors from "tailwindcss/colors";
 function TrashIcon(props) {
   return (
     <Svg
-      width="32px"
-      height="32px"
+      width="20px"
+      height="20px"
       viewBox="0 0 16 16"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       {...props}
     >
-      <G fill={colors.purple[400]}>
+      <G fill={colors.violet[400]}>
         <Path d="M6.25 6a.75.75 0 01.75.75v5.5a.75.75 0 01-1.5 0v-5.5A.75.75 0 016.25 6zm4.25.75a.75.75 0 00-1.5 0v5.5a.75.75 0 001.5 0v-5.5z" />
         <Path
           fillRule="evenodd"

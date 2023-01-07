@@ -5,9 +5,9 @@ import colors from "tailwindcss/colors";
 function WhatsIcon(props) {
   return (
     <Svg
-      fill={colors.purple[400]}
-      height="32px"
-      width="32px"
+      fill={colors.violet[400]}
+      height="20px"
+      width="20px"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       xmlSpace="preserve"
