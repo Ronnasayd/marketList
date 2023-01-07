@@ -218,7 +218,7 @@ const AppView = () => {
     );
 
   return (
-    <View className="bg-neutral-800 py-6 px-8 h-screen l-stack-between-nowrap">
+    <View className="bg-neutral-800 py-6 px-8 flex-1 l-stack-between-nowrap ">
       {!focus && <ProgressBar percentage={percentage} />}
 
       <ItensList
@@ -228,19 +228,21 @@ const AppView = () => {
         removeOneAlert={removeOneAlert}
         addClass="h-[50%]"
       />
-      <OptionButtons
-        fetchCopiedText={fetchCopiedText}
-        handleSendWhats={handleSendWhats}
-        removeAllAlert={removeAllAlert}
-        addClass=""
-      />
-      <AddView
-        handleAdd={handleAdd}
-        input={input}
-        setFocus={setFocus}
-        setInput={setInput}
-        addClass=""
-      />
+      <View>
+        <OptionButtons
+          fetchCopiedText={fetchCopiedText}
+          handleSendWhats={handleSendWhats}
+          removeAllAlert={removeAllAlert}
+          addClass="my-2"
+        />
+        <AddView
+          handleAdd={handleAdd}
+          input={input}
+          setFocus={setFocus}
+          setInput={setInput}
+          addClass=""
+        />
+      </View>
     </View>
   );
 };
